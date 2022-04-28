@@ -1,6 +1,9 @@
+import HomePageUi from "../components/ui/HomePageUi"
+
+
 function TestPage() {
   return (
-  <h1> Test</h1>
+    <HomePageUi />
   )
 
 }

@@ -33,10 +33,10 @@ function SettingsOverlay() {
               icon={<EditIcon />}
               size="lg"
               isRound="true"
-              marginTop="180px"
+              marginTop="350px"
               marginLeft="-60px"
               onClick={onOpen}
-            >dkfjaskdfjkasjdfksj</IconButton>
+            ></IconButton>
 
             <Modal isOpen={isOpen} onClose={onClose}>
 

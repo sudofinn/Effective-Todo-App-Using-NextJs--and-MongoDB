@@ -4,6 +4,9 @@ import {Heading} from "@chakra-ui/react"
 
 import DarkModeToggle from "./Darkmode.jsx"
 import SettingsOverlay from "./SettingsOverlay.jsx"
+import AddUser from "./AddUser.jsx"
+
+import {VStack} from "@chakra-ui/react"
 
 //all the ui for the homepage
 
@@ -15,10 +18,14 @@ function HomePageUi() {
               bgGradient='linear(to-r, blue.500, pink.300, blue.600)' bgClip="text"
             >Your Todos</Heading>
 
-
+           
             <DarkModeToggle />
 
             <SettingsOverlay />
+
+            <AddUser />
+                
+           
         </Fragment>
     )
 

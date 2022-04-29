@@ -5,6 +5,7 @@ import {Heading} from "@chakra-ui/react"
 import DarkModeToggle from "./Darkmode.jsx"
 import SettingsOverlay from "./SettingsOverlay.jsx"
 import AddUser from "./AddUser.jsx"
+import TodoItem from "../TodoItem.jsx"
 
 import {VStack} from "@chakra-ui/react"
 
@@ -18,17 +19,32 @@ function HomePageUi() {
 
     return (
         <Fragment>
-            <MotionHeading fontSize="8xl" marginTop="50px" display="flex" justifyContent="center" alignItems="center"
+            <VStack spacing="40px">
+            <MotionHeading fontSize="8xl" marginTop="50px"marginBottom="100px" display="flex" justifyContent="center" alignItems="center"
               bgGradient='linear(to-r, blue.500, pink.300, blue.600)' bgClip="text" whileHover={{scale:0.9}}
               animate={{y:[0, 80, 50] }} transition={{ ease: "easeOut", duration: 1 }}
             >Your Todos</MotionHeading>
-
            
-            <DarkModeToggle />
+           
+            <TodoItem />
+           
+            
+        
 
-            <SettingsOverlay />
+             </VStack>
 
-            <AddUser />
+             
+             <DarkModeToggle />
+
+             <AddUser />
+             
+             <SettingsOverlay />
+
+             
+
+
+
+             
                 
            
         </Fragment>
@@ -37,3 +53,14 @@ function HomePageUi() {
 }
 
 export default HomePageUi
+
+
+/*
+
+
+            <DarkModeToggle />
+
+           <SettingsOverlay />
+
+            <AddUser />
+*/

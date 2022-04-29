@@ -30,6 +30,7 @@ function DarkModeToggle() {
              whileHover={{scale:2}}
             animate={{ rotate: 360 , y:[0,105,40]}}
             transition={{ duration: 1 }} 
+            float="left"
             ></MotionIconButton>
         </Fragment>
     )

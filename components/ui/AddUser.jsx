@@ -39,7 +39,7 @@ function AddUser() {
     return (
       <>
         <MotionButton leftIcon={<AddIcon />} colorScheme='teal' onClick={onOpen}
-         marginTop="10px"  marginLeft="-50px"
+         marginTop="-320px"  marginLeft="50px"
          whileHover={{scale:2}}
           animate={{ rotate: 360 , y:[0,105,40]}}
           transition={{ duration: 1 }} 

@@ -26,19 +26,26 @@ import { AddIcon } from '@chakra-ui/icons'
 import react from "react"
 import {useRef} from "react"
 
+import {motion} from "framer-motion"
+
 
 function AddUser() {
     const { isOpen, onOpen, onClose } = useDisclosure()
    
     const firstField = useRef()
+
+    const MotionButton = motion(Button)
   
     return (
       <>
-        <Button leftIcon={<AddIcon />} colorScheme='teal' onClick={onOpen}
+        <MotionButton leftIcon={<AddIcon />} colorScheme='teal' onClick={onOpen}
          marginTop="10px"  marginLeft="-50px"
+         whileHover={{scale:2}}
+          animate={{ rotate: 360 , y:[0,105,40]}}
+          transition={{ duration: 1 }} 
         >
           
-        </Button>
+        </MotionButton>
         <Drawer
           isOpen={isOpen}
           placement='right'

@@ -19,7 +19,7 @@ import {
 
 import {Fragment} from "react"
 
-
+import {motion} from "framer-motion"
 
 
 //main overlay on main page
@@ -27,16 +27,21 @@ import {Fragment} from "react"
 function SettingsOverlay() {
     const {isOpen, onOpen, onClose} = useDisclosure()
 
+    const MotionIconButton = motion(IconButton)
+
     return (
         <Fragment>
-            <IconButton
+            <MotionIconButton
               icon={<EditIcon />}
               size="lg"
               isRound="true"
               marginTop="350px"
               marginLeft="-60px"
               onClick={onOpen}
-            ></IconButton>
+              whileHover={{scale:2}}
+               animate={{ rotate: 360 , y:[0,105,40]}}
+               transition={{ duration: 1 }} 
+            ></MotionIconButton>
 
             <Modal isOpen={isOpen} onClose={onClose}>
 

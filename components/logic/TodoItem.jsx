@@ -17,7 +17,7 @@ function TodoItem() {
        divider={<StackDivider />}
        borderColor="gray.100"
        borderWidth="2px"
-       p="4"
+       p="5"
        borderRadius="lg"
        w="80%"
        maxW={{ base: '90vw', sm: '80vw', lg: '50vw', xl: '40vw' }}
@@ -29,7 +29,7 @@ function TodoItem() {
        
        >
            <HStack>
-               <Text>Hallo, 1 Test</Text>
+               <Text fontSize="25px">Hallo, 1 Test</Text>
                <Spacer />
                <IconButton
             icon={<FaTrash />}
@@ -37,7 +37,7 @@ function TodoItem() {
            </HStack>
 
            <HStack>
-               <Text>Hallo, 2 Test</Text>
+               <Text fontSize="25px">Hallo, 2 Test</Text>
                <Spacer />
                <IconButton
             icon={<FaTrash />}
@@ -45,7 +45,7 @@ function TodoItem() {
            </HStack>
 
            <HStack>
-               <Text>Hallo, 3 Test</Text>
+               <Text fontSize="25px">Hallo, 3 Test</Text>
                <Spacer />
                <IconButton
             icon={<FaTrash />}

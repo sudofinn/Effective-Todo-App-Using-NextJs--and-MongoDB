@@ -35,7 +35,7 @@ function SettingsOverlay() {
               icon={<EditIcon />}
               size="lg"
               isRound="true"
-              marginTop="50px"
+              marginTop="-200px"
               marginLeft="-60px"
               onClick={onOpen}
               whileHover={{scale:2}}

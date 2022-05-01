@@ -25,7 +25,7 @@ function DarkModeToggle() {
              isRound="true"
              size="lg"
              onClick={toggleColorMode}
-             marginTop="-550px"
+             marginTop="-650px"
              marginLeft="60px"
              whileHover={{scale:2}}
             animate={{ rotate: 360 , y:[0,105,40]}}

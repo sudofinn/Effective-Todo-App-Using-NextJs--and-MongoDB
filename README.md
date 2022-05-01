@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Todo App with NextJS and MongoDB
 
-## Getting Started
+## Description
 
-First, run the development server:
+This is a minimal Todo App made with NextJS, MongoDB, Chakra UI and Framer Motion.
+The primary goal was to keep this as simple as possible so that it is easy to replicate.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Snapshots
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Install, run
+git clone "url of the repo" cd my-cloned-app
 
-## Learn More
+npm install npm start
 
-To learn more about Next.js, take a look at the following resources:
+//localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies
+NextJs ( w. create-next-app) , MongoDB (backend) , Chakra ui ( ui library) Framer Motion ( animation library) ❤️
+Note that the backend has lots of keys so you have to make your own account at MongoDB or whatever database you want to use. In these files, only the rough layout is depicted ( it will only work if you add you code to it). There are some
+dummy texts for the todos, replace these w. the ones you get from MongoDB.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
+Use the code whenever , wherever you want. No credits needed ! ✌️
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

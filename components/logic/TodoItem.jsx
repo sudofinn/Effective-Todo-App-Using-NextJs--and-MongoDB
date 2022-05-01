@@ -10,7 +10,7 @@ import {
   import { FaTrash } from 'react-icons/fa';
 
 
-function TodoItem() {
+function TodoItem(props) {
 
     return (
        <VStack
@@ -29,7 +29,7 @@ function TodoItem() {
        
        >
            <HStack>
-               <Text fontSize="25px">Hallo, 1 Test</Text>
+               <Text fontSize="25px">Essay for tomorrow</Text>
                <Spacer />
                <IconButton
             icon={<FaTrash />}
@@ -37,7 +37,7 @@ function TodoItem() {
            </HStack>
 
            <HStack>
-               <Text fontSize="25px">Hallo, 2 Test</Text>
+               <Text fontSize="25px">Call John for meetup</Text>
                <Spacer />
                <IconButton
             icon={<FaTrash />}
@@ -45,7 +45,7 @@ function TodoItem() {
            </HStack>
 
            <HStack>
-               <Text fontSize="25px">Hallo, 3 Test</Text>
+               <Text fontSize="25px">Build own Rest API</Text>
                <Spacer />
                <IconButton
             icon={<FaTrash />}

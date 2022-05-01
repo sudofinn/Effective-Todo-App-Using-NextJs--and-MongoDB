@@ -8,6 +8,8 @@ import AddUser from "./AddUser.jsx"
 import TodoItem from "../logic/TodoItem"
 import AddTodo from "../logic/AddTodo.jsx"
 
+import TestPage from "../../pages/index.js"
+
 import {VStack, HStack} from "@chakra-ui/react"
 import {  Box } from '@chakra-ui/react'
 
@@ -18,9 +20,11 @@ import Image from "next/image"
 
 //all the ui for the homepage
 
-function HomePageUi() {
+function HomePageUi(props) {
 
     const MotionHeading = motion(Heading)
+
+    // an object w. dummy data
 
     return (
         <Fragment>
@@ -35,7 +39,8 @@ function HomePageUi() {
             <Image  src={PrWomen} alt="kfsjkfdj" width="130px" height="130px" display="flex" float="right"
                 ></Image>
            
-            <TodoItem />
+             <TodoItem todo={props.todos}/>
+             
 
             <AddTodo />
            

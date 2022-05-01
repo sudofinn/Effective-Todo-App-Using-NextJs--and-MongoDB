@@ -9,6 +9,12 @@ The primary goal was to keep this as simple as possible so that it is easy to re
 
 
 
+https://user-images.githubusercontent.com/102916500/166159014-18f954a5-8dc9-4ddb-b896-1715b528da8f.mp4
+
+![Darkmode](https://user-images.githubusercontent.com/102916500/166159023-1cfc2a8f-b6bc-463e-a00e-f34eee81c233.jpg)
+
+![Lightmode](https://user-images.githubusercontent.com/102916500/166159026-37b0a4bb-0409-441b-b472-9f5a05ab8253.jpg)
+
 
 ## Install, run
 git clone "url of the repo" cd my-cloned-app
